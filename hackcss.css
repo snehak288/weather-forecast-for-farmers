@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight:bold;
+    background-color: #a1a9a9;
+    background-image: url('field.webp');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 1500px 700px;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #92c73d;
+    border-radius: 8px;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+  }
+  div.container {
+    opacity: 0.89;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #d8815c;
+    color: #130606;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #391310;
+  }
+  
+  button:hover {
+    background-color: #782109;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;  /* Adjust as needed */
+}
+
+#weatherInfo p {
+    flex: 1; /* This allows each paragraph to take equal width */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center text within each paragraph */
+    border: 1px solid #ccc; /* Add a border for separation */
+    border-radius: 5px; /* Round the corners of the border */
+}
+
+  
+  .temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }

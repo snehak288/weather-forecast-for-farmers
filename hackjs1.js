@@ -48,7 +48,7 @@ function getWeather() {
 }
 document.getElementById('cityInput').addEventListener('keyup', function (event) {
     if (event.key=='Enter') {
-        // 13 is the key code for "Enter"
+        // 13 is the key code for "Enter"...................  
         getWeather();
     }
 });
